@@ -17,6 +17,8 @@ A fun and interactive **Word Scramble** game where players try to guess the corr
 - Score tracking system.  
 - Option to reshuffle or skip words.  
 - Beginner-friendly code structure for learning C++ + GUI programming.  
+- Implementaion from the ground of random number generator algorithm.
+- Ai autolplay as future implementation.
 
 ---
 
