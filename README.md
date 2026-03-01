@@ -5,7 +5,7 @@
             
 # 🧩 Word Scramble Game  
 
-A fun and interactive **Word Scramble** game where players try to guess the correct word from scrambled letters. Built with **C++ and FLTK** for a simple GUI-based gameplay experience.  
+A fun and interactive **Word Scramble** game where players try to guess the correct word from scrambled letters. Built with **C++ and QT** for a simple GUI-based gameplay experience.  
 
 
 ---
@@ -13,7 +13,7 @@ A fun and interactive **Word Scramble** game where players try to guess the corr
 ## 🚀 Features  
 
 - Randomly scrambled words from a predefined dictionary.  
-- Simple and clean **graphical interface (FLTK)**. (still in implementation)
+- Simple and clean **QT**. 
 - Score tracking system.  
 - Option to reshuffle or skip words.  
 - Beginner-friendly code structure for learning C++ + GUI programming.  
