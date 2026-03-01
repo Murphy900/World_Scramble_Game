@@ -76,3 +76,11 @@ int Player::getLife() const {
 // Getter for player's life count
 // This function returns the current life count of the player.
 // It is used to check how many lives the player has left in the game.
+
+void Player::setScore(int s) {
+   score  = s;
+}
+
+void Player::setLife(int l) {
+   life = l;
+}

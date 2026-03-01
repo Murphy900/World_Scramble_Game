@@ -24,21 +24,3 @@ vector<string> read(const string& text){
     return words; // return the vector containing the words
 } // vector to hold words from the dictionary
 
-// testing the read function
-// this function reads words from a file and returns them as a vector of strings
-
-
-/*int main(int argc, char* argv[]) {
-
-    // Check if the correct number of arguments is provided
-    if (argc < 2) {
-        cerr << "Usage: " << argv[0] << " <dictionary_file>" << endl;
-        return 1; // exit if no file is provided
-    }
-    string filename = argv[1]; // get the filename from command line arguments
-    vector<string> words = read(filename); // read words from the file
-    cout << "Words read from the file: " << words.size() << endl; // print the number of words read
-
-    return 0;
-}
-w*/

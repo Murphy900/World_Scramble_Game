@@ -10,6 +10,7 @@
 #include <iostream> // for error messages
 #include <random> // for random_shuffle 
 #include <rand.h> // include the rand header file
+#include <algorithm> // for std::shuffle
 
 using namespace std;
 
@@ -44,7 +45,6 @@ string shuffle_word(const vector<string>& dictionary, int index ){
 
     return word; // return the shuffled word
 }
-
 
 
 

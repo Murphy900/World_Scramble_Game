@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_Word_Scramble_FILE /home/giulio/Documents/GitHub/World_Scramble_Game/Word_Scramble/build/Word_Scramble)
+set(__QT_DEPLOY_TARGET_Word_Scramble_TYPE EXECUTABLE)

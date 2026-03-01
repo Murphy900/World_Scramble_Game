@@ -1,3 +1,5 @@
-/Users/giuliodilernia/Documents/C++_exercise/Word_Scramble/build/CMakeFiles/Word_Scramble.dir
-/Users/giuliodilernia/Documents/C++_exercise/Word_Scramble/build/CMakeFiles/edit_cache.dir
-/Users/giuliodilernia/Documents/C++_exercise/Word_Scramble/build/CMakeFiles/rebuild_cache.dir
+/home/giulio/Documents/GitHub/World_Scramble_Game/Word_Scramble/build/CMakeFiles/Word_Scramble.dir
+/home/giulio/Documents/GitHub/World_Scramble_Game/Word_Scramble/build/CMakeFiles/edit_cache.dir
+/home/giulio/Documents/GitHub/World_Scramble_Game/Word_Scramble/build/CMakeFiles/rebuild_cache.dir
+/home/giulio/Documents/GitHub/World_Scramble_Game/Word_Scramble/build/CMakeFiles/Word_Scramble_autogen_timestamp_deps.dir
+/home/giulio/Documents/GitHub/World_Scramble_Game/Word_Scramble/build/CMakeFiles/Word_Scramble_autogen.dir

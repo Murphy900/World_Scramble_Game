@@ -24,6 +24,8 @@ class Player{
         int getCounter() const; // Getter for player's counter
         void updateCounter(); // Setter for player's counter
         void resetCounter(); // Function to reset player's counter
+        void setScore(int score);
+        void setLife(int life);
 };
 
 #endif // PLAYER_H

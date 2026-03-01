@@ -1,0 +1,5 @@
+/home/giulio/Documents/GitHub/World_Scramble_Game/Word_Scramble/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/Word_Scramble.dir
+/home/giulio/Documents/GitHub/World_Scramble_Game/Word_Scramble/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/edit_cache.dir
+/home/giulio/Documents/GitHub/World_Scramble_Game/Word_Scramble/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/rebuild_cache.dir
+/home/giulio/Documents/GitHub/World_Scramble_Game/Word_Scramble/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/Word_Scramble_autogen_timestamp_deps.dir
+/home/giulio/Documents/GitHub/World_Scramble_Game/Word_Scramble/build/Desktop_Qt_6_10_2-Debug/CMakeFiles/Word_Scramble_autogen.dir

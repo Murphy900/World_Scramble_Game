@@ -3,22 +3,28 @@
 #include "gameDynamic.h"
 #include <string>
 #include <iostream>
-
+#include <rand.h>
 using namespace std;
 
 // This function provides a suggestion for the player by combining the first three characters of the original word
 // with the remaining characters of the scrambled word. It is used to help players who are struggling
 string hint(Player& player, string& word, string& scrambledWord){
     int currentLife = player.getLife();
-    
-    switch (currentLife){
-        case 2:
-            return word.substr(0, 2) + scrambledWord.substr(3, word.length());
-        case 1:
-            return word.substr(0, 3) + scrambledWord.substr(3, word.length());
-        default:
-            return scrambledWord; // if no lives left, return the scrambled word as is
+    int revealCount = (currentLife == 2) ? 2 : 3;
+
+    // Revealed letters from the original word
+    string revealed = word.substr(0, revealCount);
+
+    // Copy of the scrambled word from which to remove the revealed letters
+    string remaining = scrambledWord;
+    for (int i = 0; i < revealCount; i++) {
+        size_t pos = remaining.find(word[i]);
+        if (pos != string::npos)
+            remaining.erase(pos, 1);
     }
+
+    return revealed + remaining;
+    
 }
 
 void earnedPoints(Player& player){
@@ -40,6 +46,7 @@ void earnedPoints(Player& player){
     }
     
 }
+
 
 
 
